@@ -135,8 +135,8 @@ export default function AIParamsPanel({ currentParams, onApply }) {
                 background: "rgba(255,255,255,0.05)",
                 color: "#dfe8ff",
                 borderRadius: "999px",
-                padding: "6px 10px",
-                fontSize: "11px",
+                padding: "7px 12px",
+                fontSize: "13px",
                 cursor: "pointer",
               }}
             >
@@ -158,7 +158,7 @@ export default function AIParamsPanel({ currentParams, onApply }) {
             background: "rgba(2, 6, 23, 0.9)",
             color: "#fff",
             padding: "12px 12px",
-            fontSize: "13px",
+            fontSize: "15px",
             lineHeight: 1.5,
             boxSizing: "border-box",
             outline: "none",

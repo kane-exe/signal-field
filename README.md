@@ -29,6 +29,15 @@ A 3D spiral particle system driven by AI prompts. Describe a mood or motion, and
    npm install
    ```
 
+   If `npm install` fails, switch to the recommended Node version and retry:
+
+   ```bash
+   nvm install 20.19.0
+   nvm use 20.19.0
+   node -v
+   npm install
+   ```
+
 3. Create your local environment file from the example:
 
    ```bash
@@ -44,8 +53,6 @@ npm run dev
 ```
 
 The app will be available at `http://localhost:5173`
-
-
 
 ## Project Structure
 
