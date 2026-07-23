@@ -44,6 +44,16 @@ A 3D spiral particle system driven by AI prompts. Describe a mood or motion, and
    cp .env.example .env
    ```
 
+4. Open `.env` and replace placeholder values with your real credentials:
+
+   ```env
+   VITE_CLOUDFLARE_ACCOUNT_ID=your_actual_account_id
+   VITE_CLOUDFLARE_API_TOKEN=your_actual_api_token
+   ```
+
+   If you need help finding your Account ID or creating an API token, follow Cloudflare's guide:
+   https://developers.cloudflare.com/fundamentals/api/get-started/create-token/
+
 ### Development
 
 Start the local dev server with HMR:
